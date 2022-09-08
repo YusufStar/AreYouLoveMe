@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    color: #444;
+    background:  #ffe7e3;
+    text-align: center;
+}
+
+.love, .yes, .no {
+    padding-top: 25%;
+}
+
+.love span {
+    color: #fc9786;
+}
+
+h2 {
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+.love a {
+    text-decoration: none;
+    background: #eee;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+#no {
+    color: red;
+}
+
+#yes {
+    color: green;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    animation: heart 4s linear infinite;
+}
+
+@keyframes heart {
+    0%{transform: scale(0.5);}
+    50%{transform: scale(1.3);}
+    100%{transform: scale(0.5);}
+}
